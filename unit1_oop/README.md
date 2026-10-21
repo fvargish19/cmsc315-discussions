@@ -12,6 +12,10 @@ This is where it breaks from reality since in real life every incident gets a pr
 
 After I programmed the child class, I tested it out in the main method to ensure everything was working as intended.
 
+The hardest part for me was figuring out how namespaces work within python. Displaying an object with "__dict__" was a new concept to me so it was interesting messing with that and seeing how it worked!
+
+Programming the portion for shallow and deep copying was fairly simple since I understood how copying works. What was interesting was seeing in action how editing the original object affects the shallow copy.
+
 # Unit 1 Discussion: Python OOP, Namespaces, and Copying
 
 ## Overview
