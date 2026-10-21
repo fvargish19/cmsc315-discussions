@@ -1,3 +1,17 @@
+## Design Implementation
+
+For this project I decided to use my background as a 911 operator and police dispatcher to create an object for a 911/emergency incident, bending reality a little bit to fit the constraints of this assignment.
+
+I created the parent object "Incident" using the two variables that are required at my work to create a call: a location, and an incident type. Along with those pieces of info every incident gets a status, open by default.
+The next thing I did was create a function that can be used to close the incidents as that's another function that is available by default for every incident.
+
+Before moving on to the child class I started working on the main function, deciding it would be easier to test as I worked. I created a simple object, displayed the info, and then tried the "close_incident" function to make sure it worked.
+
+Once I knew the parent class was working and displaying properly I created the child class for an incident that gets dispatched. For this one the extra variables were a priority, sector, and then a list of units dispatched to the call.
+This is where it breaks from reality since in real life every incident gets a priority, sector, and can have units get dispatched to it.
+
+After I programmed the child class, I tested it out in the main method to ensure everything was working as intended.
+
 # Unit 1 Discussion: Python OOP, Namespaces, and Copying
 
 ## Overview
